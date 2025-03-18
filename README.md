@@ -90,7 +90,23 @@ All product information is dynamically fetched from SerpAPI based on user querie
 
 ## Workflow
 
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/d5501bc9-a632-4c6e-9c0f-44535103bce0" alt = "Workflow" >
+</div>
+
 ## User Interface
+
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/0da58181-49f9-440a-86a5-826f2e7a934b" alt = "Aspect sentiment" width = 50%>
+</div>
+
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/bfa611e2-f6e5-4d9b-9a69-c82370de5814" alt = "Aspect sentiment" width = 50%>
+</div>
+
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/17753f9f-50ec-4935-b40c-a733e0610df7" alt = "Aspect sentiment" width = 50%>
+</div>
 
 ## Conclusion
 
