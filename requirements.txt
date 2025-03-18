@@ -1,0 +1,4 @@
+Flask==3.1.0
+serpapi==2.4.2
+pandas==2.1.4
+python-dotenv

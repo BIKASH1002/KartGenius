@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" />
+  <!-- Link to CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='custom.css') }}" />
+  <title>KartGenius</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <div class="brand-logo">
+        <img src="https://iili.io/3oFuvx1.png" alt="Logo" />
+        <h1 class="navbar-title">KartGenius</h1>
+      </div>
+      <div class="navbar-buttons">
+        <button id="recentSearchesBtn">Recent Searches</button>
+        <button id="viewFavourites">View Favourites</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search Card -->
+  <div class="search-card">
+    <h2 class="search-title">Find the Perfect Product</h2>
+    <form id="searchForm" action="/search" method="post">
+      <div class="input-group">
+        <label for="query">What Are You Looking for?</label>
+        <input type="text" id="query" name="query" placeholder="e.g., gift ideas" required />
+      </div>
+      <div class="input-group">
+        <label for="location">Enter City, State/Country (optional):</label>
+        <input type="text" id="location" name="location" placeholder="Enter city" />
+      </div>
+      <button type="submit" class="search-button">Search</button>
+    </form>
+  </div>
+
+  {% if refined_query %}
+  <div class="results">
+    <h2>Refined Query:</h2>
+    <p>{{ refined_query }}</p>
+    <h2>Comparison Table:</h2>
+    {{ comparison_table|safe }}
+    <div class="summary">
+      {{ summary|safe }}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Loading Spinner -->
+  <div id="loading-spinner" class="loading-spinner" style="display: none;">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Favourites Modal -->
+  <div id="favouritesModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeFavourites">&times;</span>
+      <h2>Your Favourites</h2>
+      <ul id="favouritesList"></ul>
+    </div>
+  </div>
+
+  <!-- Recent Searches Modal -->
+  <div id="recentSearchesModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeRecentSearches">&times;</span>
+      <h2>Recent Searches</h2>
+      <ul id="recentSearchesList"></ul>
+    </div>
+  </div>
+
+  <!-- Loading external JavaScript -->
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
