@@ -50,7 +50,7 @@ All product information is dynamically fetched from SerpAPI based on user querie
 
 - **Clean UI:** A modern, user-friendly interface that makes product comparisons easy.
 
-  ## Procedure
+## Procedure
 
 **1. Input Stage:**
 
