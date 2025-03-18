@@ -21,3 +21,11 @@ In today’s digital world, shopping online for gifts or personal use can be bot
 ## Overview
 
 KartGenius is a web-based shopping assistant built with Flask. It refines user queries and fetches product data from SerpAPI, displaying a clear, side-by-side comparison table using Pandas. Originally developed as a guided project from IBM’s Cognitive Class, KartGenius has been enhanced with custom features like favourites, recent searches and product image view to provide a more engaging, interactive experience. This project simplifies the process of comparing products, saving users both time and effort.
+
+## Setup
+
+- **Visual Studio Code:** for developement
+
+- **Flask:** for web-framework
+
+- **SerpAPI:** for fetching real-time product data
