@@ -89,3 +89,9 @@ All product information is dynamically fetched from SerpAPI based on user querie
 - The UI updates dynamically, providing a seamless experience.
 
 ## Workflow
+
+## User Interface
+
+## Conclusion
+
+KartGenius streamlines the online shopping experience by refining search queries and providing a clear product comparison table. Originally built as part of IBM’s Cognitive Class, it now includes custom features like favourites and recent searches, making it a versatile tool for anyone looking to shop smarter. This project not only simplifies product discovery but also demonstrates how AI-inspired enhancements can elevate everyday tasks.
