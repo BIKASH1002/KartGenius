@@ -91,7 +91,7 @@ All product information is dynamically fetched from SerpAPI based on user querie
 ## Workflow
 
 <div align = "center">
-  <img src = "https://github.com/user-attachments/assets/d5501bc9-a632-4c6e-9c0f-44535103bce0" alt = "Workflow" >
+  <img src = "https://github.com/user-attachments/assets/47fda1a9-c589-4cd6-b7b1-83dd4e4f7838" alt = "Workflow" >
 </div>
 
 ## User Interface
