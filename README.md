@@ -96,9 +96,35 @@ All product information is dynamically fetched from SerpAPI based on user querie
 
 ## User Interface
 
+**Main Search Interface**
+
+The main page of KartGenius presents a clean, simplistic search card where users can:
+
+- Enter their product query (e.g., “gift ideas”).
+
+- Optionally specify a location (e.g., “New York,” “Mumbai,” or “London”).
+
+- Click Search to trigger the query refinement and product comparison process.
+
+A navigation bar at the top displays the KartGeniuslogo, along with buttons for Recent Searches and View Favourites, allowing quick access to stored queries and products.
+
 <div align = "center">
   <img src = "https://github.com/user-attachments/assets/0da58181-49f9-440a-86a5-826f2e7a934b" alt = "Aspect sentiment" width = 50%>
 </div>
+
+**Search Results**
+
+Once a user submits a query, the refined query appears at the top, followed by a comparison table listing relevant products. Each entry in the table shows:
+
+- **Image:** A small thumbnail of the product.
+
+- **Name:** A clickable link leading to the product page.
+
+- **Price:** The price fetched from the SerpAPI data.
+
+- **Rating and Reviews:** Indicators of product popularity and user satisfaction.
+
+- **Actions:** An Add to Favourites button that stores the product in a local favourites list.
 
 <div align = "center">
   <img src = "https://github.com/user-attachments/assets/bfa611e2-f6e5-4d9b-9a69-c82370de5814" alt = "Aspect sentiment" width = 50%>
